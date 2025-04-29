@@ -5,11 +5,11 @@ const port = 3000;
 
 app.use(cors());
 
-app.get("/aaaaa", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/a", (req, res) => {
+app.get("/aaaaaaaa", (req, res) => {
   res.send("Hello World!");
 });
 
